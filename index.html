@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="card" data-state="#about">
+    <div class="card-header">
+      <div class="card-cover" id="cardCover"></div>
+      <img class="card-avatar" id="cardAvatar" alt="avatar" />
+      <h1 class="card-fullname" id="cardName"></h1>
+      <h2 class="card-jobtitle" id="cardJobTitle"></h2>
+    </div>
+    <div class="card-main">
+      <!-- About Section -->
+      <div class="card-section is-active" id="about">
+        <div class="card-content">
+          <div class="card-subtitle" id="aboutTitle"></div>
+          <p class="card-desc" id="aboutContent"></p>
+        </div>
+        <div class="card-social" id="socialLinks"></div>
+      </div>
+
+      <!-- Experience Section -->
+      <div class="card-section" id="experience">
+        <div class="card-content">
+          <div class="card-subtitle" id="experienceTitle"></div>
+          <div class="card-timeline" id="timelineContainer"></div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="card-section" id="contact">
+        <div class="card-content">
+          <div class="card-subtitle" id="contactTitle"></div>
+          <div class="card-contact-wrapper" id="contactContainer"></div>
+        </div>
+      </div>
+
+      <!-- Navigation Buttons -->
+      <div class="card-buttons" id="navButtons"></div>
+    </div>
+  </div>
+  <script src="data.js"></script>
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>
