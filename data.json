@@ -1,0 +1,79 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "jobTitle": "Developer",
+    "coverImage": "https://i.pinimg.com/1200x/d9/b2/97/d9b29715b473dd0a5b37e1bc9929907b.jpg",
+    "avatar": "https://i.pinimg.com/736x/01/7a/34/017a34f775c4e1e6b3651e6e554b382c.jpg"
+  },
+  "sections": {
+    "about": {
+      "title": "ABOUT",
+      "content": "Developer interested in building and maintaining software. Focused on clean, maintainable, and functional code using standard web technologies.",
+      "social": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/",
+          "icon": "fab fa-github"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://x.com/",
+          "icon": "fab fa-twitter"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/",
+          "icon": "fab fa-instagram"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/",
+          "icon": "fab fa-linkedin-in"
+        }
+      ]
+    },
+    "experience": {
+      "title": "WORK EXPERIENCE",
+      "timeline": [
+        {
+          "year": "2014",
+          "title": "Front-end Developer at FaceBook",
+          "description": "Worked on UI components and improved client-side performance."
+        },
+        {
+          "year": "2016",
+          "title": "UI Developer at GitHub",
+          "description": "Developed user interface features and optimized conversion flows."
+        },
+        {
+          "year": "2018",
+          "title": "Illustrator at Google",
+          "description": "Designed onboarding illustrations for mobile and web applications."
+        },
+        {
+          "year": "2020",
+          "title": "Full-Stack Developer at CodePen",
+          "description": "Built and maintained full-stack features and internal tools."
+        }
+      ]
+    },
+    "contact": {
+      "title": "CONTACT",
+      "info": [
+        {
+          "type": "location",
+          "text": "India"
+        },
+        {
+          "type": "phone",
+          "text": "(269) 756-9809"
+        },
+        {
+          "type": "email",
+          "text": "example@gmail.com",
+          "link": "mailto:example@gmail.com"
+        }
+      ]
+    }
+  }
+}
